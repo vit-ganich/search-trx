@@ -15,7 +15,7 @@ namespace SearchTRX
         public static IEnumerable TrxSearch(string testResultsDir)
         {
             var initialDirState = new List<string>();
-
+            Console.WriteLine("Scanning the folder... Please, wait...");
             try
             {
                 initialDirState.AddRange(Directory.GetFiles(
@@ -92,7 +92,7 @@ namespace SearchTRX
                     var myFile = File.Create(logFilePath);
                     myFile.Close();
                 }
-
+                Console.WriteLine("Writing to the file... Please, wait...");
                 using (StreamWriter outputFile = new StreamWriter(logFilePath))
                 {
                     foreach (string file in searchResults)
