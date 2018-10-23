@@ -1,4 +1,4 @@
-## Useful_Apps_Csharp
+## SearchTRX
 Simple console application.
 
 ### How to use?
