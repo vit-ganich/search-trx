@@ -1,5 +1,5 @@
 ## SearchTRX
-Simple console application.
+Simple console application. It was created due to frequent need to brief view of a big amount of test results in separared folders.
 
 ### How to use?
 1. Run the executable file.
@@ -8,7 +8,7 @@ Simple console application.
 1. Don't panic!
 1. ...
 1. ...
-1. Profit! Now you have txt-file with the list of all files with specified extension (trx) in all subfolders.
+1. Profit! Now you have txt-file with the list of all files with specified extension (*trx*) in all subfolders.
 1. It's a miracle, it's a marvel!!!
 1. Didn't you dream about it?
 1. No, your stupid program can only in trx, it's not cool!
